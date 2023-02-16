@@ -234,10 +234,4 @@ You can also record your interactions with the executed contract as a short vide
 
 ---
 
-## Submission
-
-* Upload the files for this assignment to your GitHub repository.
-
-* Submit the link to your GitHub repo on Bootcamp Spot.
-
----
+## Evaluation Evidence
