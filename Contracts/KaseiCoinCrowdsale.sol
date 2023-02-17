@@ -15,5 +15,9 @@ contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale { // UPDATE THE CONTRA
         address payable wallet,
         KaseiCoin token
     ) 
-        public Crowdsale(rate, wallet, token) {}
+        Crowdsale(rate, wallet, token) 
+        public
+    {
+
+    }
 }
