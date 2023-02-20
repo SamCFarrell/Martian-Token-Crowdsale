@@ -232,6 +232,51 @@ You can also record your interactions with the executed contract as a short vide
 
 * To create an animated GIF, you can use [Recordit](https://recordit.co/) on either macOS or Windows.
 
----
-
 ## Evaluation Evidence
+
+### KaseiCoin Compilation:
+![KaseiCoin Compilation](images/KaseiCoin_Compilation.png)
+
+### KaseiCoinCrowdsale and KaseiCoinCrowdsaleDeployer Compilation:
+![KaseiCoin Crowdsale & Deployer Compilation](images/KaseiCoin_Crowdsale_Deployer_Compilation.png)
+
+### Ganache Accounts
+![Ganache Accounts](images/Ganache_Accounts.png)
+
+### Connecting MetaMask
+![Injected Provider](images/Connecting_Metamask_1.png)
+![Connected Wallet](images/Connecting_Metamask_2.png)
+
+### KaseiCoinCrowdsaleDeployer Deployment
+![Deployment](images/Crowdsale_Deployment.png)
+![Deployment Results](images/Crowdsale_Deployment_Results.png)
+
+### KaseiCoin and KaseiCoinCrowdsale Deployment
+![Addressal Deployment](images/Addressal_Deployment.png)
+
+### Buying Tokens
+![Purchase Setup](images/Buying_Tokens_1.png)
+![Purchase Confirmation](images/Buying_Tokens_2.png)
+![Purchase Results](images/Buying_Tokens_3.png)
+
+### Balance of Beneficiary Address
+![Balance of Buyer](images/Balance_of_Buyer.png)
+
+
+### Total Supply 
+![Total Supply](images/Total_Supply.png)
+
+
+### Wei Raised
+![Wei Raised](images/Wei_Raised.png)
+
+### Ganache Results
+![Ganache Results](images/Ganache_Results.png)
+
+
+
+
+
+
+
+
