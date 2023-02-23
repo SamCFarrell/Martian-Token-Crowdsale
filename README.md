@@ -259,9 +259,9 @@ You can also record your interactions with the executed contract as a short vide
 ![Purchase Confirmation](Images/Buying_Tokens_2.png)
 ![Purchase Results](Images/Buying_Tokens_3.png)
 
-### Balance of Beneficiary Address
-![Balance of Buyer](Images/Balance_of_Buyer.png)
-
+### Crowdsale Finalization
+![Crowdsale Finalization](Images/Crowdsale_Finalization.png)
+![Crowdsale Finalization Results](Images/Crowdsale_Finalization_Results.png)
 
 ### Total Supply 
 ![Total Supply](Images/Total_Supply.png)
@@ -270,13 +270,11 @@ You can also record your interactions with the executed contract as a short vide
 ### Wei Raised
 ![Wei Raised](Images/Wei_Raised.png)
 
+### Everyting Else
+![Everything Else](Images/Everything_Else.png)
+
 ### Ganache Results
 ![Ganache Results](Images/Ganache_Results.png)
 
-
-
-
-
-
-
-
+### Metamask Token Balance
+![KSI Balance](Images/KSI_Metamask_Balance.png)

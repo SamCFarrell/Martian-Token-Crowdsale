@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.5.5;
 
 // Have the KaseiCoinCrowdsale contract inherit the following OpenZeppelin:
 // * Crowdsale
@@ -7,16 +7,25 @@ import "./KaseiCoin.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/Crowdsale.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/emission/MintedCrowdsale.sol";
 
-contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale { // UPDATE THE CONTRACT SIGNATURE TO ADD INHERITANCE
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/validation/CappedCrowdsale.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/validation/TimedCrowdsale.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/distribution/RefundablePostDeliveryCrowdsale.sol";
+
+contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale, TimedCrowdsale, RefundablePostDeliveryCrowdsale { // UPDATE THE CONTRACT SIGNATURE TO ADD INHERITANCE
     
     // Provide parameters for all of the features of your crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
     constructor(
         uint rate,
         address payable wallet,
-        KaseiCoin token
-    ) 
-        Crowdsale(rate, wallet, token) 
-        public
+        KaseiCoin token,
+        uint goal,
+        uint open,
+        uint close
+    ) public
+        Crowdsale(rate, wallet, token)
+        CappedCrowdsale(goal)
+        TimedCrowdsale(open, close)
+        RefundableCrowdsale(goal)
     {
 
     }
@@ -32,7 +41,8 @@ contract KaseiCoinCrowdsaleDeployer {
     constructor(
         string memory name,
         string memory symbol,
-        address payable wallet
+        address payable wallet,
+        uint goal
     ) 
         public 
     {
@@ -42,7 +52,7 @@ contract KaseiCoinCrowdsaleDeployer {
         kasei_token_address = address(token);
 
         // Create a new instance of the `KaseiCoinCrowdsale` contract
-        KaseiCoinCrowdsale kasei_crowdsale = new KaseiCoinCrowdsale(1, wallet, token);
+        KaseiCoinCrowdsale kasei_crowdsale = new KaseiCoinCrowdsale (1, wallet, token, goal, now, now + 5 minutes);
         // Aassign the `KaseiCoinCrowdsale` contract’s address to the `kasei_crowdsale_address` variable.
         kasei_crowdsale_address = address(kasei_crowdsale);
 
