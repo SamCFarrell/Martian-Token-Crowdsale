@@ -38,7 +38,7 @@ The crowdsale contract that you create will manage the entire crowdsale process.
 
 Note that you’ll record a short video or animated GIF or take several screenshots that show the deployed contract in action.
 
-In the `README.md` file of your GitHub repository for this homework assignment, you’ll create a section named Evaluation Evidence. In this section, you’ll share screenshots of your work from each subsection of the assignment.
+Create a seperate `Evanuation_Evidence` Markdown file to share screenshots of your work from each subsection of the assignment.
 
 ### Step 1: Create the KaseiCoin Token Contract
 
@@ -222,7 +222,7 @@ To enhance your KaseiCoin crowdsale with this added functionality, complete the 
 
 8. Create a GitHub repository and a `README.md` file that explains the process for buying KaseiCoin.
 
-Make sure that your `README.md` file includes screenshots that illustrate the functionality of your contracts as the earlier instructions detailed.
+Make sure to include an `Evaluation_Evidence.md` file with screenshots that illustrate the functionality of your contracts as the earlier instructions detailed.
 
 You can also record your interactions with the executed contract as a short video or an animated GIF. To record a video, you can use the following tools:
 
@@ -232,49 +232,4 @@ You can also record your interactions with the executed contract as a short vide
 
 * To create an animated GIF, you can use [Recordit](https://recordit.co/) on either macOS or Windows.
 
-## Evaluation Evidence
-
-### KaseiCoin Compilation:
-![KaseiCoin Compilation](Images/KaseiCoin_Compilation.png)
-
-### KaseiCoinCrowdsale and KaseiCoinCrowdsaleDeployer Compilation:
-![KaseiCoin Crowdsale & Deployer Compilation](Images/KaseiCoin_Crowdsale_Deployer_Compilation.png)
-
-### Ganache Accounts
-![Ganache Accounts](Images/Ganache_Accounts.png)
-
-### Connecting MetaMask
-![Injected Provider](Images/Connecting_Metamask_1.png)
-![Connected Wallet](Images/Connecting_Metamask_2.png)
-
-### KaseiCoinCrowdsaleDeployer Deployment
-![Deployment](Images/Crowdsale_Deployment.png)
-![Deployment Results](Images/Crowdsale_Deployment_Results.png)
-
-### KaseiCoin and KaseiCoinCrowdsale Deployment
-![Addressal Deployment](Images/Addressal_Deployment.png)
-
-### Buying Tokens
-![Purchase Setup](Images/Buying_Tokens_1.png)
-![Purchase Confirmation](Images/Buying_Tokens_2.png)
-![Purchase Results](Images/Buying_Tokens_3.png)
-
-### Crowdsale Finalization
-![Crowdsale Finalization](Images/Crowdsale_Finalization.png)
-![Crowdsale Finalization Results](Images/Crowdsale_Finalization_Results.png)
-
-### Total Supply 
-![Total Supply](Images/Total_Supply.png)
-
-
-### Wei Raised
-![Wei Raised](Images/Wei_Raised.png)
-
-### Everyting Else
-![Everything Else](Images/Everything_Else.png)
-
-### Ganache Results
-![Ganache Results](Images/Ganache_Results.png)
-
-### Metamask Token Balance
-![KSI Balance](Images/KSI_Metamask_Balance.png)
+---
