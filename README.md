@@ -64,7 +64,7 @@ In this subsection, you’ll create a smart contract that defines KaseiCoin as a
 
 7. Check for any errors, and debug them as needed.
 
-8. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your GitHub repository.
+8. Take a screenshot of the successful compilation of the contract, and add it to the `Evanuation_Evidence.md` file for your GitHub repository.
 
 ### Step 2: Create the KaseiCoin Crowdsale Contract
 
@@ -84,7 +84,7 @@ In this subsection, you’ll define the KaseiCoin crowdsale contract. To do so, 
 
 5. Check for any errors, and debug them as needed.
 
-6. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your GitHub repository.
+6. Take a screenshot of the successful compilation of the contract, and add it to the `Evanuation_Evidence.md` file for your GitHub repository.
 
 ### Step 3: Create the KaseiCoin Deployer Contract
 
@@ -122,7 +122,7 @@ Next, in the `KaseiCoinCrowdsaleDeployer` contract, you’ll add variables to st
 
 6. Check for any errors, and debug them as needed.
 
-7. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your Git repository.
+7. Take a screenshot of the successful compilation of the contract, and add it to the `Evanuation_Evidence.md` file for your GitHub repository.
 
 ### Step 4: Deploy and Test the Crowdsale on a Local Blockchain
 
